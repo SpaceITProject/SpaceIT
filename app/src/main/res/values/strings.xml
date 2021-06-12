@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpaceIT</string>
+    <string name="button_back">Back</string>
+    <string name="button_task">Task</string>
+    <string name="button_theory">Theory</string>
+    <string name="button_wordList">Wordlist</string>
+
+</resources>
