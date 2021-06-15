@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,6 +34,18 @@ public class TaskLevel extends AppCompatActivity {
             public void onClick(View v) {
                 try {
                     Intent intent = new Intent(TaskLevel.this, WordsLevel.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+                }
+            }
+        });
+        Button button_stackOverflow = findViewById(R.id.buttonStackOverflow);
+        button_stackOverflow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(TaskLevel.this, StackOverflowTasks.class);
                     startActivity(intent);
                     finish();
                 }catch (Exception e){

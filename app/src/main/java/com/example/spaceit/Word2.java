@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,6 +17,8 @@ public class Word2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word2);
+        final ImageView img_word2 = findViewById(R.id.word2);
+        img_word2.setClipToOutline(true);
         Button button_back = findViewById(R.id.button_back);
         button_back.setOnClickListener(new View.OnClickListener() {
             @Override

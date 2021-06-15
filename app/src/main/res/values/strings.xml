@@ -13,5 +13,12 @@
     <string name="word2_variant1">support</string>
     <string name="word2_variant2">tool bar</string>
     <string name="word2_variant3">solution</string>
+    <string name="task_overflow">Read the text and select true or false</string>
+    <string name="statements">Statements by text</string>
+    <string name="task_overflow1">1. Accordingly to the answer, we need to use Lists.</string>
+    <string name="task_overflow2">2. Using Arrays makes code flexible.</string>
+    <string name="task_overflow3">3. Difference in speed between List and Array in Java is big.</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
 
 </resources>

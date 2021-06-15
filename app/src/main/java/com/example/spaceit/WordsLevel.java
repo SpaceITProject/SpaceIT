@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +16,14 @@ public class WordsLevel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.level1_task_words);
+        final ImageView img_word1 = findViewById(R.id.word1);
+        img_word1.setClipToOutline(true);
+        final ImageView img_word2 = findViewById(R.id.word2);
+        img_word2.setClipToOutline(true);
+        final ImageView img_word3 = findViewById(R.id.word3);
+        img_word3.setClipToOutline(true);
+        final ImageView img_word4 = findViewById(R.id.word4);
+        img_word4.setClipToOutline(true);
         Button button_back = findViewById(R.id.buttonBack);
         button_back.setOnClickListener(new View.OnClickListener() {
             @Override

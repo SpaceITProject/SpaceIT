@@ -78,14 +78,13 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/word1"
             android:layout_width="192dp"
             android:layout_height="133dp"
+            android:background="@drawable/style_img"
             android:src="@drawable/word1" />
 
-
-
     </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -138,25 +137,27 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/word2"
             android:layout_width="192dp"
             android:layout_height="133dp"
-            app:srcCompat="@drawable/word2" />
+            android:background="@drawable/style_img"
+            android:src="@drawable/word2" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="250dp"
-        android:layout_height="142dp"
+        android:layout_width="202dp"
+        android:layout_height="146dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="210dp"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/word3" />
+            android:id="@+id/word3"
+            android:layout_width="192dp"
+            android:layout_height="133dp"
+            android:background="@drawable/style_img"
+            android:src="@drawable/word3" />
     </LinearLayout>
 
     <LinearLayout
@@ -168,10 +169,11 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/word4"
             android:layout_width="192dp"
             android:layout_height="133dp"
-            app:srcCompat="@drawable/word4" />
+            android:background="@drawable/style_img"
+            android:src="@drawable/word4" />
     </LinearLayout>
 
 </RelativeLayout>

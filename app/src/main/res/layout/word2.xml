@@ -26,14 +26,14 @@
                 android:id="@+id/line1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/button_back"
                     android:layout_width="140dp"
                     android:layout_height="61dp"
-                    android:layout_marginHorizontal="20dp"
-                    android:layout_marginVertical="25dp"
+
                     android:background="@drawable/style_button_back"
                     android:layout_marginRight="10dp"
                     android:text="@string/button_back"
@@ -45,8 +45,6 @@
                     android:id="@+id/text_word2"
                     android:layout_width="140dp"
                     android:layout_height="61dp"
-                    android:layout_marginHorizontal="20dp"
-                    android:layout_marginVertical="25dp"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="2"
@@ -57,8 +55,6 @@
                     android:id="@+id/button_next"
                     android:layout_width="140dp"
                     android:layout_height="61dp"
-                    android:layout_marginHorizontal="20dp"
-                    android:layout_marginVertical="25dp"
                     android:background="@drawable/style_button_back"
                     android:layout_marginRight="10dp"
                     android:text="Next"
@@ -77,18 +73,22 @@
             android:text="@string/task"
             android:textColor="@color/white"
             android:textSize="20sp"
+            android:layout_marginTop="20dp"
             android:paddingLeft="20dp"/>
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/word2"
             android:layout_width="356dp"
-            android:layout_height="279dp"
-            app:srcCompat="@drawable/word2" />
+            android:layout_height="252dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/style_img"
+            android:src="@drawable/word2" />
 
         <TextView
             android:id="@+id/task_word2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:paddingLeft="20dp"
             android:textSize="32sp"
             android:gravity="center"
@@ -101,7 +101,7 @@
             android:orientation="vertical"
             android:layout_marginRight="70dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:gravity="center">
 
             <LinearLayout
