@@ -4,5 +4,14 @@
     <string name="button_task">Task</string>
     <string name="button_theory">Theory</string>
     <string name="button_wordList">Wordlist</string>
+    <string name="task">Choose a word that fits the definition</string>
+    <string name="task_word1">Сhange the code with basic tools is</string>
+    <string name="task_word2">The answer to a problem is</string>
+    <string name="word1_variant1">refactor</string>
+    <string name="word1_variant2">edit</string>
+    <string name="word1_variant3">exception</string>
+    <string name="word2_variant1">support</string>
+    <string name="word2_variant2">tool bar</string>
+    <string name="word2_variant3">solution</string>
 
 </resources>

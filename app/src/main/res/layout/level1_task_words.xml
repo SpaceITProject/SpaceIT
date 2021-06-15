@@ -35,7 +35,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/buttonWord4"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:background="@drawable/style_button_level1"
