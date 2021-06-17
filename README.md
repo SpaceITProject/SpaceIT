@@ -35,4 +35,5 @@ __Порядок установки:__
 1.	Перенести apk/aab файл на устройство
 2.	Установить приложение
 
-__Структура приложения:__
+__Презентация проекта:__
+https://www.canva.com/design/DAEQ9gAmfbE/imj0qhm4QSCIZxNb8xybdw/view?utm_content=DAEQ9gAmfbE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
